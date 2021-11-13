@@ -18,3 +18,6 @@ console.log(a, b, c);
 const [friend1, friend2] = user.check(2, 3);
 console.log(friend1, friend2);
 console.log(user.check(1, 2));
+const arr1 = [1, 2, [3, 4]];
+const [x, , [y, z]] = arr1;
+console.log(x, y, z);
